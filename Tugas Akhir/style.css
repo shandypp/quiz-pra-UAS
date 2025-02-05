@@ -1,0 +1,100 @@
+  h1 {
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+  }
+
+  .jumbotron {
+    margin-top: 0%;
+    background-color: #800000;
+    color: white;
+    font-size: 25px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .img-fluid{
+    max-width: 50%;
+    height: auto;
+  }
+
+  nav ul {
+    padding-inline: 4rem;
+    display: flex;
+   
+    gap: 2rem;
+  }
+   
+  nav li {
+    list-style-type:none;
+    
+  }
+
+  a{
+    color: white;
+    text-decoration: solid;
+  }
+
+  h2{
+    color:#911100;
+    font-variant: small-caps;
+  }
+
+  h3{
+    color:#970c0c;
+    font-variant: small-caps;
+  }
+
+  
+.card {
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  
+}
+ 
+  body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifs;
+  }
+
+  
+  table{
+  float: left;
+  margin: 20px;
+  width: 45%;
+  border-collapse: collapse;
+  }
+
+  th, td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #000000;
+  }
+
+  th {
+  background-color: #982B1C;
+  color: white;
+  }
+   
+  aside {
+    background-color:white;
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside header{
+  text-align: center;
+}
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
